@@ -1,0 +1,112 @@
+/* - - - - - - - - - 
+    Fonts 
+ - - - - - - - - - */
+
+@font-face {
+  font-family: AGaramondPro-Regular;
+  src: url(/fonts/Adobe-Garamond-Pro/AGaramondPro-Regular.otf);
+}
+
+@font-face {
+  font-family: GraphikRegular;
+  src: url(/fonts/Graphik-Font-Family/GraphikRegular.otf);
+}
+
+/* - - - - - - - - - 
+      Global
+   - - - - - - - - - */
+
+.clear {
+  clear: both;
+}
+
+/* - - - - - - - - - 
+      Header 
+   - - - - - - - - - */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  padding: 1em 0;
+  background-color: white;
+}
+
+nav {
+  float: left;
+  margin: 0 0 0 32px;
+}
+
+#nav-list li {
+  display: inline;
+  margin: 0 32px 0 0;
+  font-family: GraphikRegular;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+}
+
+#nav-list li a {
+  color: #191c1f;
+  text-decoration: none;
+}
+
+#nav-list li a:hover {
+  color: #c62700;
+}
+
+#nav-list li a#current {
+  color: #c62700;
+}
+
+/* #sign-in {
+      float: right;
+      margin-right: 32px;
+    } */
+
+/* - - - - - - - - - - - - - - - 
+    Layout
+- - - - - - - - - - - - */
+
+#page-wrap {
+  width: 960px;
+  height: 100%;
+  margin: 5em 32px 1em 32px;
+  background-color: white;
+}
+
+/* - - - - - - - - - - - - - - - 
+    Typography
+- - - - - - - - - - - - */
+
+h1 {
+  display: none;
+}
+
+h2,
+h3 {
+  font-family: AGaramondPro-Regular;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+/* - - - - - - - - - - - - - - - 
+      Link styles
+  - - - - - - - - - - - - */
+
+h3 a {
+  color: #191c1f;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  color: #c62700;
+}
